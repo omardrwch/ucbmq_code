@@ -1,0 +1,7 @@
+agent_class: 'algorithms.optql.OptQLAgent'
+init_kwargs:
+  gamma: 1.0
+  bonus_scale_factor: 1.0
+  bonus_type: 'simplified_bernstein'
+  add_bonus_after_update: True
+

@@ -1,0 +1,3 @@
+base_config: 'config/agents/ucbvi.yaml'
+init_kwargs:
+  real_time_dp: True

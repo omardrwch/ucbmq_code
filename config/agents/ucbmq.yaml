@@ -1,0 +1,4 @@
+agent_class: 'algorithms.ucbmq.UCBMQAgent'
+init_kwargs:
+  bonus_scale_factor: 1.0
+  bonus_type: 'simplified_bernstein'

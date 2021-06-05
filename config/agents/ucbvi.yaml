@@ -1,0 +1,7 @@
+agent_class: 'algorithms.ucbvi.UCBVIAgent'
+init_kwargs:
+  gamma: 1.0
+  bonus_scale_factor: 1.0
+  bonus_type: 'simplified_bernstein'
+  stage_dependent: True
+  real_time_dp: False
