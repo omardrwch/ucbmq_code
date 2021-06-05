@@ -1,4 +1,6 @@
-# Code for the paper: UCB Momentum Q-learning: Correcting the bias without forgetting
+# UCB Momentum Q-learning: Correcting the bias without forgetting
+
+Paper available [here](https://arxiv.org/abs/2103.01312).
 
 The algorithm and the baselines are implemented in the folder `algorithms/`. The folder `config/` contains the parameters defining the experiments.
 
