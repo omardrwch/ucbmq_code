@@ -52,7 +52,7 @@ plot_fit_info(stats_list, "episode_rewards", show=False)
 plot_episode_rewards(stats_list, cumulative=True, show=False)
 
 
-matplotlib.rcParams['text.usetex'] = True
+# matplotlib.rcParams['text.usetex'] = True
 plot_episode_rewards(stats_list,
                      cumulative=False,
                      show=False,

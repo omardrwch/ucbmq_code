@@ -1,0 +1,12 @@
+description: 'Short experiment: fewer episodes'
+seed: 42
+global_init_kwargs:
+  n_episodes: 5000
+  horizon: 100
+train_env: 'config/env_gridworld.yaml'
+eval_env: 'config/env_gridworld.yaml'
+agents:
+  - config/agents/ucbmq.yaml
+  - config/agents/ucbvi.yaml
+  - config/agents/ucbvi_rtdp.yaml
+  - config/agents/optql.yaml
